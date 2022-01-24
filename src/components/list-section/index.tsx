@@ -3,19 +3,19 @@ import FeatureSvg from '@/constants/svg/features.svg';
 
 const listItems = [
   {
-    title: `Designers`,
+    title: `Track Laborer`,
     description: `Officia et fugiat mollit qui. Dolor elit aliqua voluptate ipsum
     excepteur cillum consequat consectetur duis magna qui eu consequat occaecat.
     Deserunt nisi sit.`,
   },
   {
-    title: `Developers`,
+    title: `Signal Maintainer`,
     description: `Pariatur consectetur laboris exercitation duis laboris.
     Commodo duis fugiat magna fugiat et ut anim elit. Tempor aute ex qui
     tempor tempor.`,
   },
   {
-    title: `Product owners`,
+    title: `Train Crew`,
     description: `Ullamco consectetur ipsum eiusmod nisi adipisicing sint anim
     dolore aute excepteur. Voluptate ea ullamco sunt eu elit qui aliquip.
     Adipisicing.`,
@@ -26,9 +26,9 @@ const ListSection = () => (
   <section className={tw(`lg:py-28 pt-28 overflow-hidden`)}>
     <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white`)}>
       <div className={tw(`mb-16 text-center`)}>
-        <h2 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>Grow your revenue</h2>
+        <h2 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>Find your position</h2>
         <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>
-          Transform your business
+          What jobs are availible?
         </p>
       </div>
       <div className={tw(`flex flex-wrap -mx-8 items-center`)}>

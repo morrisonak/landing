@@ -13,10 +13,7 @@ type Link = {
 };
 
 const links = [
-  {
-    label: `Features`,
-    href: `/`,
-  },
+  
   {
     label: `Testimonials`,
     href: `/`,
@@ -27,19 +24,16 @@ const links = [
   },
   {
     label: `Blog`,
-    href: `/`,
+    href: `/blog`,
   },
 ];
 
 const secondaryLinks = [
   {
-    label: `Contact sales`,
+    label: `Contact`,
     href: `/`,
   },
-  {
-    label: `Log in`,
-    href: `/`,
-  },
+  
   {
     label: `Get Started`,
     href: `/`,
